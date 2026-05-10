@@ -1,0 +1,22 @@
+{
+  "name": "rodev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --outfile=dist/bundle.js --format=esm --target=es2020 --sourcemap",
+    "watch": "esbuild src/main.ts --bundle --outfile=dist/bundle.js --format=esm --target=es2020 --sourcemap --watch",
+    "typecheck": "tsc --noEmit",
+    "serve": "npx serve . --listen 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1"
+  }
+}

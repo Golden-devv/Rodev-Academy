@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rodev Academy</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+ <header class="topbar">
+  <button class="logo" onclick="showPage('home')">
+    <div class="logo-mark"><img src="icon/Logo.png" width="30"></div>
+    <span class="logo-text">RO<span>DEV</span></span>
+  </button>
+  <div class="topbar-sep"></div>
+  <div class="topbar-right">
+    <a class="ytlink" href="https://www.youtube.com/@RoDevAcademy" target="_blank">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1C4.5 20.4 12 20.4 12 20.4s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+      YOUTUBE
+    </a>
+  </div>
+</header>
+  <main class="home-scroll">
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <img class="big-pic" src="imgs/Group 1 (4).png" alt="Roblox picture">
+      <span class="hero-kicker">Welcome to</span>
+      <h1 class="hero-h1">RO<span class="dim">DEV</span></h1>
+      <p class="hero-tagline">Master <strong>Roblox game development</strong> through hands-on projects and real-world techniques. From scripting to systems design, learn everything you need to build amazing games.</p>
+      <div class="hero-actions">
+        <button class="btn-primary" id="explore-courses-btn">
+          Explore Courses
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+        <button class="btn-secondary" id="watch-tutorials-btn">
+          Watch Tutorials
+        </button>
+      </div>
+      <p class="hero-stat">Join <span class="stat-num">5000+</span> developers learning Roblox development</p>
+    </section>
+
+    <!-- TUTOR STORY -->
+    <section class="tutor-story">
+      <div class="tutor-story-card">
+        <img src="imgs/GoldenDevPic.png" alt="TheGoldenDev Roblox journey" class="story-img">
+        <div>
+          <h2>Meet your tutor: TheGoldenDev</h2>
+          <p>When he first started learning Roblox development, he faced many problems. There were not many guided learning paths, and the resources that did exist were often paid or outdated.</p>
+          <p>After two years of experience, he decided to make a difference. RoDev exists to teach the next generation and anyone who wants to learn — giving the most important lessons for free.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features">
+      <div class="features-container">
+        <h2 class="section-title">Why Choose RODEV?</h2>
+        <p class="section-subtitle">Comprehensive resources for Roblox developers at every level</p>
+        
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <h3>Hands-On Projects</h3>
+            <p>Learn by building real Roblox games with practical tutorials and project-based curriculum.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <h3>Interactive Lessons</h3>
+            <p>Run Lua code directly in your browser and see results instantly. Learn by doing.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <h3>Expert Guidance</h3>
+            <p>Learn from experienced Roblox developers with years of game development expertise.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <h3>Community</h3>
+            <p>Connect with thousands of developers, share projects, and grow together.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <h3>Updated Content</h3>
+            <p>Stay current with the latest Roblox features and best practices in game development.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+            </div>
+            <h3>Certification Path</h3>
+            <p>Complete courses and earn certificates to showcase your Roblox development skills.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COURSES PREVIEW SECTION -->
+    <section id="courses" class="courses-section">
+      <div class="courses-container">
+        <h2 class="section-title">Featured Courses</h2>
+        <p class="section-subtitle">Start your journey with our most popular courses</p>
+        
+        <div class="courses-grid">
+          <div class="course-card">
+            <div class="course-badge">Beginner</div>
+            <h3>Lua Fundamentals</h3>
+            <p>Learn the basics of Lua programming, variables, functions, and tables. Perfect for complete beginners.</p>
+            <div class="course-meta">
+              <span class="course-duration">8 lessons</span>
+              <span class="course-level">2-3 hours</span>
+            </div>
+            <button class="btn-outline">Get Started</button>
+          </div>
+
+          <div class="course-card featured">
+            <div class="course-badge featured">Intermediate</div>
+            <h3>Game Systems</h3>
+            <p>Build core game systems including player management, inventory, and game loops.</p>
+            <div class="course-meta">
+              <span class="course-duration">15 lessons</span>
+              <span class="course-level">6-8 hours</span>
+            </div>
+            <button class="btn-outline">Get Started</button>
+          </div>
+
+          <div class="course-card">
+            <div class="course-badge">Advanced</div>
+            <h3>Multiplayer Architecture</h3>
+            <p>Master client-server communication, networking, and building scalable multiplayer games.</p>
+            <div class="course-meta">
+              <span class="course-duration">12 lessons</span>
+              <span class="course-level">8-10 hours</span>
+            </div>
+            <button class="btn-outline">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Ready to Start Building?</h2>
+        <p>Join our community of Roblox developers and start creating amazing games today.</p>
+        <button class="btn-primary" onclick="window.open('https://www.youtube.com/@RoDevAcademy', '_blank')">
+          Subscribe to YouTube Channel
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1C4.5 20.4 12 20.4 12 20.4s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8z"/>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h4>RODEV</h4>
+          <p>Master Roblox game development through hands-on learning and expert guidance.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="documentation.html">Documentation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Community</h4>
+          <ul>
+            <li><a href="https://www.youtube.com/@RoDevAcademy" target="_blank">YouTube</a></li>
+            <li><a href="#">Discord</a></li>
+            <li><a href="#">Forum</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="legal/privacy.html">Privacy Policy</a></li>
+            <li><a href="legal/terms.html">Terms of Service</a></li>
+            <li><a href="legal/cookies.html">Cookie Policy</a></li>
+            <li><a href="legal/copyright.html">Copyright Notice</a></li>
+            <li><a href="legal/disclaimer.html">Disclaimer</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 RODEV Academy. All rights reserved. Roblox is a trademark of Roblox Corporation.</p>
+      </div>
+    </footer>
+  </main>
+  <script>
+    function showPage(page) {
+      if (page === 'home') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var featuresSection = document.querySelector('.features');
+      var exploreBtn = document.getElementById('explore-courses-btn');
+      var watchBtn = document.getElementById('watch-tutorials-btn');
+      var courseButtons = document.querySelectorAll('.btn-outline');
+
+      if (exploreBtn && featuresSection) {
+        exploreBtn.addEventListener('click', function () {
+          featuresSection.scrollIntoView({ behavior: 'smooth' });
+        });
+      }
+
+      if (watchBtn) {
+        watchBtn.addEventListener('click', function () {
+          window.open('https://www.youtube.com/@RoDevAcademy', '_blank');
+        });
+      }
+
+      courseButtons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          if (featuresSection) {
+            featuresSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

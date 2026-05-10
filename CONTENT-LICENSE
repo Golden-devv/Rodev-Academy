@@ -1,0 +1,100 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0)
+
+Copyright (c) 2026 GoldenDev — RoDev Academy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHAT THIS LICENSE COVERS
+
+This license applies to all educational content in this repository, including:
+
+  • Lesson text and written explanations
+  • Curriculum structure and learning paths
+  • SVG diagrams and visual explainers
+  • Quiz questions and challenge prompts
+  • Code examples written specifically as teaching material
+  • Video scripts and transcripts
+
+This license does NOT cover the software/code that powers the platform
+(HTML shell, TypeScript engine, CSS, build tooling). That is covered by the
+MIT License in the LICENSE file.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+YOU ARE FREE TO
+
+  Share     — copy and redistribute the content in any medium or format
+  Adapt     — remix, transform, and build upon the content
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+UNDER THE FOLLOWING TERMS
+
+  Attribution (BY)
+  ─────────────────
+  You must give appropriate credit to RoDev Academy and GoldenDev.
+  You must provide a link to this repository and to this license.
+  You must indicate if changes were made.
+  You may do so in any reasonable manner, but not in any way that suggests
+  RoDev Academy or GoldenDev endorses you or your use.
+
+  Non-Commercial (NC)
+  ────────────────────
+  You may NOT use this content for commercial purposes.
+  This means you cannot:
+    - Sell courses, books, or materials derived from this content
+    - Put this content behind a paywall
+    - Use this content in paid advertising or sponsored material
+    - Profit financially from redistribution or adaptation of this content
+
+  ShareAlike (SA)
+  ─────────────────
+  If you remix, transform, or build upon this content, you must distribute
+  your contributions under the same CC BY-NC-SA 4.0 license.
+  You may not apply legal terms or technological measures that legally
+  restrict others from doing anything the license permits.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NO ADDITIONAL RESTRICTIONS
+
+You may not apply legal terms or technological measures that legally restrict
+others from doing anything this license permits.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NOTICES
+
+  • You do not have to comply with the license for elements of the material
+    in the public domain or where your use is permitted by an applicable
+    exception or limitation.
+  • No warranties are given. The license may not give you all of the
+    permissions necessary for your intended use.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FULL LICENSE TEXT
+
+The full legal text of CC BY-NC-SA 4.0 is available at:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+A human-readable summary is available at:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ATTRIBUTION EXAMPLE
+
+When using or adapting RoDev Academy content, include a notice like:
+
+  "Based on RoDev Academy by GoldenDev, licensed under CC BY-NC-SA 4.0.
+   Original at: https://github.com/Goldendevv/rodev-academy"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CONTACT
+
+For permissions beyond the scope of this license (e.g. commercial use):
+  YouTube: https://www.youtube.com/@RoDevAcademy
+  GitHub:  https://github.com/YOUR_USERNAME/rodev-academy
